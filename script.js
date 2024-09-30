@@ -18,5 +18,4 @@ document.body.innerHTML += "<p>" + "ÚKOL: Házení kostkou" + "</p>"
 
 const hod = Math.floor(Math.random() * 6) + 1
 
-
 document.body.innerHTML += "<p>" + "Na kostce padlo číslo " + hod + "</p>"
