@@ -14,18 +14,18 @@ document.body.innerHTML += "<p>" + "Příjem divadla se studentskou slevou čin�
 
 document.body.innerHTML += "<br>"
 //řešení Michal
-const plnaCena = 12
-const pocetNavstevnikuNaPredstaveni = 174
-const pocetPredstaveniZaMesic = 15
-const prijem1 = plnaCena * pocetNavstevnikuNaPredstaveni * pocetPredstaveniZaMesic
-document.body.innerHTML += '<p>Příjem divadla: ' + prijem1 + ' Kč</p>'
+//const plnaCena = 12
+//const pocetNavstevnikuNaPredstaveni = 174
+//const pocetPredstaveniZaMesic = 15
+//const prijem1 = plnaCena * pocetNavstevnikuNaPredstaveni * pocetPredstaveniZaMesic
+//document.body.innerHTML += '<p>Příjem divadla: ' + prijem1 + ' Kč</p>'
 
-const studentskaCena = 0.65 * plnaCena
-const studenti = 0.4
-const prijmySeStudenty = (plnaCena * (1 - studenti) + studentskaCena * studenti) * pocetNavstevnikuNaPredstaveni * pocetPredstaveniZaMesic
-document.body.innerHTML += '<p>Příjem divadla se slevou pro studenty: ' + prijmySeStudenty + ' Kč</p>'
+//const studentskaCena = 0.65 * plnaCena
+//const studenti = 0.4
+//const prijmySeStudenty = (plnaCena * (1 - studenti) + studentskaCena * studenti) * pocetNavstevnikuNaPredstaveni * pocetPredstaveniZaMesic
+//document.body.innerHTML += '<p>Příjem divadla se slevou pro studenty: ' + prijmySeStudenty + ' Kč</p>'
 
-
+//-----------------
 
 document.body.innerHTML += "<br>"
 //ÚKOL č. 2: Házení kostkou
@@ -34,5 +34,6 @@ const hod = Math.floor(Math.random() * 6) + 1
 document.body.innerHTML += "<p>" + "Na kostce padlo číslo " + hod + "</p>"
 
 document.body.innerHTML += "<br>"
+
 //řešení Michal
-const cisloNaKostce = 1 + Math.floor(Math.random() * 6)
+//const cisloNaKostce = 1 + Math.floor(Math.random() * 6)
